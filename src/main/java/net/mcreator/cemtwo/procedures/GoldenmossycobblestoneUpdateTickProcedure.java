@@ -8,7 +8,7 @@ import net.mcreator.cemtwo.CemtwoMod;
 
 public class GoldenmossycobblestoneUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		CemtwoMod.queueServerWork(100, () -> {
+		CemtwoMod.queueServerWork(20, () -> {
 			world.addParticle((SimpleParticleType) (CemtwoModParticleTypes.HEAVENLY_PARTICLE.get()), x, y, z, 0, 1, 0);
 		});
 	}

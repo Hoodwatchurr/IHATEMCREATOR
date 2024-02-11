@@ -16,6 +16,7 @@ import net.mcreator.cemtwo.CemtwoMod;
 
 public class CemtwoModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CemtwoMod.MODID);
+	public static final RegistryObject<Item> NUKEBLOCK = block(CemtwoModBlocks.NUKEBLOCK);
 	public static final RegistryObject<Item> GOLDENMOSSYCOBBLESTONE = block(CemtwoModBlocks.GOLDENMOSSYCOBBLESTONE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

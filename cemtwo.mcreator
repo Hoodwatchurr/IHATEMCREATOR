@@ -3,6 +3,7 @@
     {
       "name": "Goldenmossycobblestone",
       "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenmossycobblestone",
@@ -31,6 +32,7 @@
     {
       "name": "GoldenmossycobblestoneUpdateTick",
       "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenmossycobblestone_update_tick",
@@ -71,12 +73,61 @@
           "src/main/resources/data/cemtwo/worldgen/configured_feature/goldenstones.json"
         ]
       }
+    },
+    {
+      "name": "NukeblockUpdateTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukeblock_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cemtwo/procedures/NukeblockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nukeblock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukeblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cemtwo/block/entity/NukeblockBlockEntity.java",
+          "src/main/resources/assets/cemtwo/models/item/nukeblock.json",
+          "src/main/resources/assets/cemtwo/blockstates/nukeblock.json",
+          "src/main/resources/assets/cemtwo/models/block/nukeblock.json",
+          "src/main/java/net/mcreator/cemtwo/block/NukeblockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.cemtwo.nukeblock": "Godly Nuke",
       "block.cemtwo.goldenmossycobblestone": "Heavenly Mossy Cobblestone"
     }
   },
