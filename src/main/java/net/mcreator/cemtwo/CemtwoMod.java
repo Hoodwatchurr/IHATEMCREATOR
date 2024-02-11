@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.cemtwo.init.CemtwoModParticleTypes;
 import net.mcreator.cemtwo.init.CemtwoModItems;
 import net.mcreator.cemtwo.init.CemtwoModBlocks;
 
@@ -53,6 +54,8 @@ public class CemtwoMod {
 		CemtwoModBlocks.REGISTRY.register(bus);
 
 		CemtwoModItems.REGISTRY.register(bus);
+
+		CemtwoModParticleTypes.REGISTRY.register(bus);
 
 	}
 

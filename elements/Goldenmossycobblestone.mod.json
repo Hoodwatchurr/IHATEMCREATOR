@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "goldencobblestone",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Goldenmossycobblestone",
+    "name": "Heavenly Mossy Cobblestone",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 1.6,
+    "resistance": 40.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -65,7 +65,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "SAND",
     "creativePickItem": {
       "value": ""
     },
@@ -76,12 +76,12 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
-    "jumpFactor": 1.0,
+    "jumpFactor": 1.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
@@ -119,17 +119,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "GoldenmossycobblestoneUpdateTick"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "blocksToReplace": [],
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
+    "minGenerateHeight": -60,
+    "maxGenerateHeight": -60
   }
 }

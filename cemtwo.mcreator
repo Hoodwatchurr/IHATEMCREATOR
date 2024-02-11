@@ -14,13 +14,70 @@
           "src/main/java/net/mcreator/cemtwo/block/GoldenmossycobblestoneBlock.java"
         ]
       }
+    },
+    {
+      "name": "HeavenlyParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cemtwo/particles/heavenly_particle.json",
+          "src/main/java/net/mcreator/cemtwo/client/particle/HeavenlyParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldenmossycobblestoneUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenmossycobblestone_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cemtwo/procedures/GoldenmossycobblestoneUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Goldenstones",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenstones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cemtwo/forge/biome_modifier/goldenstones_biome_modifier.json",
+          "src/main/resources/data/cemtwo/worldgen/placed_feature/goldenstones.json",
+          "src/main/resources/data/cemtwo/worldgen/configured_feature/goldenstones.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.cemtwo.goldenmossycobblestone": "Goldenmossycobblestone"
+      "block.cemtwo.goldenmossycobblestone": "Heavenly Mossy Cobblestone"
     }
   },
   "foldersRoot": {
