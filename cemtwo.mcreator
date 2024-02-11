@@ -3,7 +3,8 @@
     {
       "name": "Goldenmossycobblestone",
       "type": "block",
-      "compiles": true,
+      "sortid": 4,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "goldenmossycobblestone",
       "metadata": {
@@ -31,6 +32,7 @@
     {
       "name": "GoldenmossycobblestoneUpdateTick",
       "type": "procedure",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenmossycobblestone_update_tick",
@@ -76,7 +78,7 @@
       "name": "Cloud",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cloud",
       "metadata": {
@@ -92,7 +94,7 @@
       "name": "Nukeblock",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nukeblock",
       "metadata": {
