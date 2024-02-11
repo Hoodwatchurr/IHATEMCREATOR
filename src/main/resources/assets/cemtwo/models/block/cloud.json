@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cemtwo:block/cloud",
+    "up": "cemtwo:block/cloud",
+    "north": "cemtwo:block/cloud",
+    "east": "cemtwo:block/cloud",
+    "south": "cemtwo:block/cloud",
+    "west": "cemtwo:block/cloud",
+    "particle": "cemtwo:block/cloud"
+  },
+  "render_type": "solid"
+}

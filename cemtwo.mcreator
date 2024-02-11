@@ -3,6 +3,7 @@
     {
       "name": "Goldenmossycobblestone",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenmossycobblestone",
@@ -71,12 +72,29 @@
           "src/main/resources/data/cemtwo/worldgen/configured_feature/goldenstones.json"
         ]
       }
+    },
+    {
+      "name": "Cloud",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cemtwo/models/item/cloud.json",
+          "src/main/resources/assets/cemtwo/blockstates/cloud.json",
+          "src/main/resources/assets/cemtwo/models/block/cloud.json",
+          "src/main/java/net/mcreator/cemtwo/block/CloudBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.cemtwo.cloud": "Cloud",
       "block.cemtwo.goldenmossycobblestone": "Heavenly Mossy Cobblestone"
     }
   },
