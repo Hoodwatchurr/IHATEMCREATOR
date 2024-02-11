@@ -1,0 +1,177 @@
+{
+  "_fv": 57,
+  "_type": "block",
+  "definition": {
+    "texture": "nuketop",
+    "textureTop": "nuketop",
+    "textureLeft": "nuketop",
+    "textureFront": "nukesides",
+    "textureRight": "nuketop",
+    "textureBack": "nukesides",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "nuketop",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Godly Nuke",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1000.0,
+    "resistance": 1000.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": "Blocks.REPEATING_COMMAND_BLOCK"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 1000.0,
+    "plantsGrowOn": true,
+    "canRedstoneConnect": true,
+    "lightOpacity": 15,
+    "material": {
+      "value": "SPONGE"
+    },
+    "tickRate": 1,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "canProvidePower": true,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "BLUE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -1048321,
+      "falpha": 0.0
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": true,
+    "slipperiness": 5.0,
+    "speedFactor": 1000.0,
+    "jumpFactor": 1000.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "HONEY"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 15,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "isBonemealable": true,
+    "hasInventory": true,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 1225753192,
+    "energyCapacity": 1225753192,
+    "energyMaxReceive": 1225753192,
+    "energyMaxExtract": 1225753192,
+    "isFluidTank": true,
+    "fluidCapacity": 1225753192,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onBlockAdded": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onNeighbourBlockChanges": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onTickUpdate": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onRandomUpdateEvent": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onDestroyedByPlayer": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onDestroyedByExplosion": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onStartToDestroy": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onEntityCollides": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onEntityWalksOn": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onBlockPlayedBy": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onRedstoneOn": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onRedstoneOff": {
+      "name": "NukeblockUpdateTick"
+    },
+    "onHitByProjectile": {
+      "name": "NukeblockUpdateTick"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": -64
+  }
+}

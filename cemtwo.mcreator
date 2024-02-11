@@ -3,15 +3,14 @@
     {
       "name": "Goldenmossycobblestone",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenmossycobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cemtwo/blockstates/goldenmossycobblestone.json",
           "src/main/resources/assets/cemtwo/models/block/goldenmossycobblestone.json",
           "src/main/resources/assets/cemtwo/models/item/goldenmossycobblestone.json",
+          "src/main/resources/assets/cemtwo/blockstates/goldenmossycobblestone.json",
           "src/main/java/net/mcreator/cemtwo/block/GoldenmossycobblestoneBlock.java"
         ]
       }
@@ -88,13 +87,60 @@
           "src/main/java/net/mcreator/cemtwo/block/CloudBlock.java"
         ]
       }
+    },
+    {
+      "name": "Nukeblock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukeblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cemtwo/blockstates/nukeblock.json",
+          "src/main/resources/assets/cemtwo/models/block/nukeblock.json",
+          "src/main/resources/assets/cemtwo/models/item/nukeblock.json",
+          "src/main/java/net/mcreator/cemtwo/block/NukeblockBlock.java",
+          "src/main/java/net/mcreator/cemtwo/block/entity/NukeblockBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "NukeblockUpdateTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukeblock_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cemtwo/procedures/NukeblockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.cemtwo.cloud": "Cloud",
       "block.cemtwo.goldenmossycobblestone": "Heavenly Mossy Cobblestone"
     }
   },

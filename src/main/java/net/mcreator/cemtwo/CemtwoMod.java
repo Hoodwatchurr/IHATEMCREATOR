@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.cemtwo.init.CemtwoModParticleTypes;
 import net.mcreator.cemtwo.init.CemtwoModItems;
 import net.mcreator.cemtwo.init.CemtwoModBlocks;
+import net.mcreator.cemtwo.init.CemtwoModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,7 +53,7 @@ public class CemtwoMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		CemtwoModBlocks.REGISTRY.register(bus);
-
+		CemtwoModBlockEntities.REGISTRY.register(bus);
 		CemtwoModItems.REGISTRY.register(bus);
 
 		CemtwoModParticleTypes.REGISTRY.register(bus);

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cemtwo:block/nuketop",
+    "up": "cemtwo:block/nuketop",
+    "north": "cemtwo:block/nukesides",
+    "east": "cemtwo:block/nuketop",
+    "south": "cemtwo:block/nukesides",
+    "west": "cemtwo:block/nuketop",
+    "particle": "cemtwo:block/nuketop"
+  },
+  "render_type": "solid"
+}
