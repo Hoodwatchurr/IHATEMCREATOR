@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cemtwo:block/goldencobblestone",
+    "up": "cemtwo:block/goldencobblestone",
+    "north": "cemtwo:block/goldencobblestone",
+    "east": "cemtwo:block/goldencobblestone",
+    "south": "cemtwo:block/goldencobblestone",
+    "west": "cemtwo:block/goldencobblestone",
+    "particle": "cemtwo:block/goldencobblestone"
+  },
+  "render_type": "solid"
+}

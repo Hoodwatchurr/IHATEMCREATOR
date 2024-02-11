@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Goldenmossycobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenmossycobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cemtwo/blockstates/goldenmossycobblestone.json",
+          "src/main/resources/assets/cemtwo/models/block/goldenmossycobblestone.json",
+          "src/main/resources/assets/cemtwo/models/item/goldenmossycobblestone.json",
+          "src/main/java/net/mcreator/cemtwo/block/GoldenmossycobblestoneBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.cemtwo.goldenmossycobblestone": "Goldenmossycobblestone"
+    }
   },
   "foldersRoot": {
     "name": "~",
