@@ -143,6 +143,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.cemtwo.cloud": "Cloud",
       "block.cemtwo.goldenmossycobblestone": "Heavenly Mossy Cobblestone"
     }
   },
